@@ -8,7 +8,7 @@ import socket
 def hello():
     return Response("\n".join(
         ["Hello World!",
-         "I'm testing the marketplace offering after adding .drie.yml and tidying up another error",
+         "Should be deployed",
          "I am running on %s" % socket.gethostname(),
          "You appear to hail from %s" % request.remote_addr,
          "\nEnvironment:" ] +\
