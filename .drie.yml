@@ -2,4 +2,4 @@
 installation_id: "10948"
 repo_id: "50422368"
 environment:
-- foo=6
+- foo=7
