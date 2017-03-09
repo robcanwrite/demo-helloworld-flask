@@ -1,5 +1,5 @@
 environment:
-- test=41
+- test=42
 - !secret 'gAAAAABYwW1SgxpsnvDCoG6Yefw0LcXGeHuw4WuYuKA9_aYXzVXzIMmo7pRtfc9F5IGufsXSz3KyBOGpAqswdDpJX3S8p7EUlZoFRUbR1xgmMXL9kwzt_FM='
 - !secret 'gAAAAABYwW1SN6OjOHDQ-bfvxnyXgGAqMFMqQdGzdioxh1QelpSdGZp34OL-LU4Ld4aoa1UmcrxFPlN6IojaXzsMDMkcyNbZGKe1D_VA_osc2Yq0GODjPAo='
 - refs/heads/bt-mp-test-1:
