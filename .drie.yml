@@ -1,5 +1,12 @@
 environment:
 - test=41
-- !broken: broken
+- !secret 'gAAAAABYwW1SgxpsnvDCoG6Yefw0LcXGeHuw4WuYuKA9_aYXzVXzIMmo7pRtfc9F5IGufsXSz3KyBOGpAqswdDpJX3S8p7EUlZoFRUbR1xgmMXL9kwzt_FM='
+- !secret 'gAAAAABYwW1SN6OjOHDQ-bfvxnyXgGAqMFMqQdGzdioxh1QelpSdGZp34OL-LU4Ld4aoa1UmcrxFPlN6IojaXzsMDMkcyNbZGKe1D_VA_osc2Yq0GODjPAo='
+- refs/heads/bt-mp-test-1:
+  - !secret 'gAAAAABYwW1S4TcQvy5N5olZ9S7cD92orG_Tno7ggpRmojCuMxZcEFVP18C0cZr-ofnwBl-mf5kbfwZlCjC82G31o7nLWUyQo4LKJ_IL6agx58Q17FcMN6Q='
+- refs/heads/master:
+  - !secret 'gAAAAABYwW1ScYGEpFxCRZ5iUYVdQPZ6kM6-1usU7HekUsbVt2TjzOI7UdICWCSh-C1hNSF9IncAjInsxUrV8KkRgrhLGBOn4iMpLRqNYQ_jHTrsr0B3Fxw='
+- refs/heads/foo:
+  - !secret 'gAAAAABYwW1SVZmPHVjq6qt7K7dH79u3ASRXaY9Mddo9D8mDowX7cGd4_olIYjxFYMxaJb-WxqWndKGFcLFqLhNVEvLeFTrhzA=='
 installation_id: '10948'
 repo_id: '50422368'
