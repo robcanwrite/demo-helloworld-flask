@@ -1,7 +1,7 @@
 environment:
 - develop:
   - featureX=enabled
-- common="Everyone gets this"
+- common="Everyone gets this as well"
 - !secret 'gAAAAABYwSt3k5hNxlz7twWqKxKf2GViuC8isq_285viFx0_pRm-O6Uv073nR0GZTM4MWKISaRcUnLF6w--SGL7T_DrVI_oE6w=='
 - master:
   - analytics_key=123ABC
