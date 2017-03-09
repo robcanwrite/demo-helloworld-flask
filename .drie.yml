@@ -1,10 +1,5 @@
 environment:
-- test=38
-- !secret 'gAAAAABYwWqBG8Zck4fJ8MxvRcznbSpx1qRPOA0vvzvEXoYlIiBe1obkdOGZfr9W5dtkHBFH4dyka4lm28ERzs2w2nEO3xyf7_L-vxS-La8KmsBnkHp13NQ='
-- !secret 'gAAAAABYwWqBWApTdBR8T_PspVX83LFXeBjrLtpnacezBnmXWXkaRYt-i9dhGdEmz4NbEP4q4q3FIQvpi7-6j6K1eyWClEMQ2D2GrQ0Q_oNQ3CC-a1PXyiU='
-- refs/heads/bt-mp-test-1:
-  - !secret 'gAAAAABYwWqBMrzFH3IdNyScTH_aQOljpr0jq_MVRwGbrDzR7uy29GU-H3SBkPKPAj9Eydm8n6yfsjBJp0Cnju_EGBXr4kuajoDCIBZaAEs_YRQtme4b1f8='
-- refs/heads/master:
-  - !secret 'gAAAAABYwWqBmAcnlFGecaK32bg57kUvzhT6Ed8zoxxfn6ALFpXyXzvjk81ovXDQOWFDNEafIVjIhXMnNjP6JmKKYAsUxHdUI3nPDob0QvSHzsA3bzelcpQ='
+- test=39
+- !broken: broken
 installation_id: '10948'
 repo_id: '50422368'
