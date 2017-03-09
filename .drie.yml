@@ -1,10 +1,10 @@
 environment:
-- test=37
-- !secret 'gAAAAABYwWdgOENdO76z5jt-qMo-w6Kwu1oQC_wne6MVhK8XWBUjK9KkKffdpQsEkPUxYytaaEF2McaAkq6KT8hgGDOjcw3vgDZ9gYBB0Ti6_PHTkzOtDV8='
-- !secret 'gAAAAABYwWdgS9CJL30HP7iN1SphjSWXiV6dXWyooGqIKvSRk99-PnhbHbBaNLsIZqtXy69yDd9Kjalejtm1-BHxCMXXySYxZFbnyKlAmhcNQNgxasbflLY='
-- master:
-  - !secret 'gAAAAABYwWdgb4ELi_q0XNnYhe05M9u_pe113PIoBjV_Nnna_uLdw6Rj1NrWeGtDEMRNl4ozVqgH69yyT7_BXu16hT31OfAJzchZQW0i9ytAYb9xJKFeLFw='
-- bt-mp-test-1:
-  - !secret 'gAAAAABYwWdg6xNi9hrDmJm6CfYsslQs8xiFngF4KsBLGB9iXjP6TgWRDKjMCLSioZb8GoDp4LrJu1dgT_OHHRtvwawSl-iOeVfWKmXweMpGWWdMwZKC4p8='
+- test=38
+- !secret 'gAAAAABYwWqBG8Zck4fJ8MxvRcznbSpx1qRPOA0vvzvEXoYlIiBe1obkdOGZfr9W5dtkHBFH4dyka4lm28ERzs2w2nEO3xyf7_L-vxS-La8KmsBnkHp13NQ='
+- !secret 'gAAAAABYwWqBWApTdBR8T_PspVX83LFXeBjrLtpnacezBnmXWXkaRYt-i9dhGdEmz4NbEP4q4q3FIQvpi7-6j6K1eyWClEMQ2D2GrQ0Q_oNQ3CC-a1PXyiU='
+- refs/heads/bt-mp-test-1:
+  - !secret 'gAAAAABYwWqBMrzFH3IdNyScTH_aQOljpr0jq_MVRwGbrDzR7uy29GU-H3SBkPKPAj9Eydm8n6yfsjBJp0Cnju_EGBXr4kuajoDCIBZaAEs_YRQtme4b1f8='
+- refs/heads/master:
+  - !secret 'gAAAAABYwWqBmAcnlFGecaK32bg57kUvzhT6Ed8zoxxfn6ALFpXyXzvjk81ovXDQOWFDNEafIVjIhXMnNjP6JmKKYAsUxHdUI3nPDob0QvSHzsA3bzelcpQ='
 installation_id: '10948'
 repo_id: '50422368'
