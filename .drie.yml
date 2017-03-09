@@ -1,5 +1,12 @@
----
-installation_id: "10948"
-repo_id: "50422368"
 environment:
-- bar=quux
+- develop:
+  - featureX=enabled
+- common=foo
+- !secret 'gAAAAABYwSt3k5hNxlz7twWqKxKf2GViuC8isq_285viFx0_pRm-O6Uv073nR0GZTM4MWKISaRcUnLF6w--SGL7T_DrVI_oE6w=='
+- master:
+  - analytics_key=123ABC
+  - !secret 'gAAAAABYwSt3f9meWJFvUT7NBcvjTVkHm13Vv2h3zAiGbcLFX6pMeyG6go7087YPQZiSGD9CZ2S0-z_gns_4osPsfb24Qmc5Lw=='
+- bt-mp-test-1:
+  - !secret 'gAAAAABYwSt3F2WosR1jHimEepEZWLCatmivlxibmgZDuy_m8e250843SaguVXT10dWiVyGF3pH73xtDTl5T7JcyiE7XT28lJlT15X3-Xd_ocOw_SlnopLU='
+installation_id: '10948'
+repo_id: '50422368'
