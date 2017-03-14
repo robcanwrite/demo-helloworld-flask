@@ -1,4 +1,5 @@
 environment:
+- everything=gets_this
 - !secret 'gAAAAABYyBOPvTTuVOQmmalewqyh4Z9ghnhD-dH5of2aVIXHvoSz-deYNG2a0nSAYZqdLlYVeMOBWPAypO1xLprsvRk-4C1VXWDHsorgvwY12udyygCVnBA='
 - refs/heads/kalbir-test-mp:
   - !secret 'gAAAAABYyBOP2KBA6lRYaszD9vTrYGKwC42ib_hSjZYzXlWPiPi7KfP2a2K7xfMYjCaVmH1yDl3ys7OcGlCcQqqrZI3Opg-cjpuYsAhnIL5RGd--NGPTPuo='
